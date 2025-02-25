@@ -3,7 +3,7 @@ using UnityEngine;
 public class CustomBubbles : MonoBehaviour
 {    [Tooltip("The object that will be spawned")]
     public GameObject prefab = null;
-    [Tooltip("The transform where the object is spanwed")]
+    [Tooltip("The transform where the object is spawned")]
     public Transform spawnPosition = null;
     public void Spawn()
     {

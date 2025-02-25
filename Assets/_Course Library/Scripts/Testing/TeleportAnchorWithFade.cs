@@ -9,7 +9,7 @@ public class TeleportAnchorWithFade : UnityEngine.XR.Interaction.Toolkit.Locomot
     protected override void Awake()
     {
         base.Awake();
-        fadeCanvas = FindObjectOfType<FadeCanvas>();
+        fadeCanvas = GetComponent<FadeCanvas>();
     }
 
     protected override void OnSelectEntered(SelectEnterEventArgs args)
